@@ -8,4 +8,6 @@
         <Color x:Key="Secondary">#775752</Color>
         <Color x:Key="Tertiary">#705c2e</Color>
     </ContentPage.Resources>
+
+    <Grid x:Name="Container" BackgroundColor="Black"></Grid>
 </ContentPage>
