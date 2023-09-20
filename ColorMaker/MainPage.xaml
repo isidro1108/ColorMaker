@@ -20,17 +20,20 @@
                 <Slider x:Name="sldRed"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Tertiary}"
-                        MinimumTrackColor="{StaticResource Secondary}" />
-                <Label Text="Red Value:" />
+                        MinimumTrackColor="{StaticResource Secondary}"
+                        ValueChanged="slider_ValueChanged" />
+                <Label Text="Green Value:" />
                 <Slider x:Name="sldGreen"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Tertiary}"
-                        MinimumTrackColor="{StaticResource Secondary}" />
-                <Label Text="Red Value:" />
+                        MinimumTrackColor="{StaticResource Secondary}" 
+                        ValueChanged="slider_ValueChanged" />
+                <Label Text="Blue Value:" />
                 <Slider x:Name="sldBlue"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Tertiary}"
-                        MinimumTrackColor="{StaticResource Secondary}" />
+                        MinimumTrackColor="{StaticResource Secondary}" 
+                        ValueChanged="slider_ValueChanged" />
                 <Frame CornerRadius="25" HorizontalOptions="Center">
                     <HorizontalStackLayout>
                         <Label x:Name="lblHex"
